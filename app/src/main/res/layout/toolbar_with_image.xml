@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#42064C"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <!-- ImageView for User Profile Photo -->
+    <ImageView
+        android:id="@+id/profile_image_toolbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start|center_vertical"
+        android:scaleType="centerCrop"
+       android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+/>
+    <!-- TextView for User Name -->
+    <TextView
+        android:id="@+id/toolbar_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_vertical" />
+
+</androidx.appcompat.widget.Toolbar>
